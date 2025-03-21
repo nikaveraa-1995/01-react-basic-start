@@ -1,11 +1,11 @@
-// import logo from '/logo-name.svg';
+import logo from '/logo-name.svg';
 
 export default function Header() {
   const now = new Date();
 
   return (
     <header>
-      <img src="/logo-name.svg" alt={'Result'} />
+      <img src={logo} alt={'Result'} />
 
       {/* <h3>Result University</h3> */}
 
