@@ -22,8 +22,8 @@ export const ways = [
 ];
 
 export const differences = {
-  way: 'Узконаправленный подход. Учим только фронтенду, поэтому вы получаете именно те знания, за которыми пришли.',
-  easy: 'Доступность обучения. Простыми словами объясняем сложные темы на понятных примерах.',
+  way: 'A narrowly focused approach. We teach only the frontend, so you get exactly the knowledge you came for.',
+  easy: 'Accessibility of training. We explain complex topics in simple terms, using clear examples.',
   program:
-    'Концентрация знаний. Например, модуль «HTML&CSS» даст вам столько же умений и навыков, как и 6 месяцев обучения по этой программе в госуниверситете.',
+    'Concentration of knowledge. For example, the module "HTML&CSS" will give you as many skills and abilities as 6 months of studying in this program at a state university.',
 };
