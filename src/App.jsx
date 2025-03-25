@@ -1,13 +1,14 @@
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import TeachingSection from './components/TeachingSections';
 import DifferencesSection from './components/DifferencesSection';
 import IntroSection from './components/IntroSection';
 import TabsSection from './components/TabsSection';
 import FeedbackSection from './components/FeedbackSection';
 import { useState } from 'react';
+import EffectsSection from './components/EffectsSection';
 
 export default function App() {
-  const [tab, setTab] = useState('feedback');
+  const [tab, setTab] = useState('effect');
 
   return (
     <>
@@ -27,6 +28,13 @@ export default function App() {
           <>
             {' '}
             <FeedbackSection />
+          </>
+        )}
+
+        {tab === 'effect' && (
+          <>
+            {' '}
+            <EffectsSection />
           </>
         )}
       </main>
